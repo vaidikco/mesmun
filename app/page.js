@@ -59,7 +59,7 @@ const committees = [
 const faqs = [
   {
     q: "Where is the event being held?",
-    a: "CipherMUN — the 5th edition of MESMUN — will be held at Made Easy School, Gurugram on 29th and 30th May 2026.",
+    a: "CipherMUN — the 5th edition of MESMUN — will be held at MADE EASY SCHOOL, GURUGRAM on 29th and 30th May 2026.",
   },
   {
     q: "When is the event?",
@@ -190,7 +190,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="w-fit px-4 h-6 rounded-full text-red-500 text-xs flex items-center border border-red-500"
           >
-            Powered by SIJA SUMMITS.
+            Co-organised by SIJA SUMMITS.
           </motion.div>
 
           <motion.h1
@@ -203,7 +203,7 @@ export default function Home() {
             }}
             className="text-[#ce261b] mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-none"
           >
-            <span className="font-serif tracking-wide">CIPHER</span> MUN at MES{" "}
+            <span className="font-serif tracking-wide">CIPHER</span> MUN @ MES{" "}
             <br />
             for the 5th Edition of Made Easy MUN.
           </motion.h1>
@@ -215,7 +215,7 @@ export default function Home() {
             className="text-base sm:text-lg md:text-xl text-[#ce261b] mt-4 max-w-2xl"
           >
             The ultimate showcase of diplomacy and public speaking is now back @
-            Made Easy School for the 5th edition of MESMUN.
+            MADE EASY SCHOOL, GURUGRAM for the 5th edition of MESMUN.
           </motion.p>
 
           <motion.div
@@ -341,7 +341,7 @@ export default function Home() {
               </h1>
               <p className="font-medium text-base sm:text-lg md:text-xl">
                 Head of School @ <br />
-                Made Easy School Gurugram
+                MADE EASY SCHOOL, GURUGRAM
               </p>
               <p className="font-medium text-sm">
                 Author, NLP-Master Coach and Content Developer.
@@ -446,7 +446,7 @@ export default function Home() {
           <FadeInWhenVisible delay={0.2}>
             <p className="mt-5 text-base sm:text-lg md:text-xl text-[#ce261b]/70 max-w-2xl leading-relaxed">
               Join hundreds of delegates at CipherMUN — the 5th edition of Made
-              Easy MUN at Made Easy School, Gurugram. Represent nations. Debate
+              Easy MUN at MADE EASY SCHOOL, Gurugram. Represent nations. Debate
               resolutions. Lead change.
             </p>
           </FadeInWhenVisible>
@@ -591,8 +591,7 @@ export default function Home() {
           {/* Bottom row */}
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#eae5e1]/40">
             <p>
-              © 2026 CipherMUN · Made Easy School, Gurugram. All rights
-              reserved.
+              © 2026 CipherMUN · MADE EASY SCHOOL, GURUGRAM All rights reserved.
             </p>
             <p className="flex items-center gap-1 flex-wrap justify-center sm:justify-end">
               Co-Organised by{" "}
