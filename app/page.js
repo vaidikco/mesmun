@@ -567,9 +567,8 @@ export default function Home() {
                   {[
                     {
                       label: "Email Us",
-                      href: "swati.tyagi@madeeasyschool.in",
+                      href: "mailto:swati.tyagi@madeeasyschool.in",
                     },
-                    { label: "Brochure ↓", href: "/brochure.pdf" },
                   ].map((link) => (
                     <a
                       key={link.label}
