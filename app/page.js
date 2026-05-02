@@ -266,6 +266,7 @@ export default function Home() {
           {committees.map((c, i) => (
             <motion.div
               key={c.abbr}
+              id={`committee-${c.abbr.toLowerCase().replace(/\s+/g, "-")}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
@@ -551,7 +552,7 @@ export default function Home() {
                   {committees.map((c) => (
                     <a
                       key={c.abbr}
-                      href="#committees"
+                      href={`#committee-${c.abbr.toLowerCase().replace(/\s+/g, "-")}`}
                       className="text-sm text-[#eae5e1]/80 hover:text-[#eae5e1] transition-opacity"
                     >
                       {c.abbr}
@@ -565,11 +566,9 @@ export default function Home() {
                   </p>
                   {[
                     {
-                      label: "Instagram",
-                      href: "https://instagram.com/sijasummits",
+                      label: "Email Us",
+                      href: "swati.tyagi@madeeasyschool.in",
                     },
-                    { label: "LinkedIn", href: "#" },
-                    { label: "Email Us", href: "mailto:hello@sijasummits.com" },
                     { label: "Brochure ↓", href: "/brochure.pdf" },
                   ].map((link) => (
                     <a
