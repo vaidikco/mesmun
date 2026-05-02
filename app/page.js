@@ -59,7 +59,7 @@ const committees = [
 const faqs = [
   {
     q: "Where is the event being held?",
-    a: "CipherMUN — the 5th edition of MESMUN — will be held at Made Easy School, Gurugram. The exact hall and room allocations will be shared in the delegate study guides closer to the event.",
+    a: "CipherMUN — the 5th edition of MESMUN — will be held at Made Easy School, Gurugram on 29th and 30th May 2026.",
   },
   {
     q: "When is the event?",
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Where can I contact the organizers for more information?",
-    a: "For any queries regarding registration, committee details, or event logistics. You may contact us 9999639155. ",
+    a: "For any queries regarding registration, committee details, or event logistics. You may contact us swati.tyagi@madeeasyschool.in ",
   },
 ];
 
@@ -153,8 +153,13 @@ export default function Home() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="self-center w-full sm:w-[60%] mt-[2vw] md:w-[45%] lg:w-[40%] bg-white/70 backdrop-blur-sm border border-red-200 rounded-full px-5 py-2 flex items-center justify-between mb-8"
         >
-          <span className="text-[#ce261b] font-serif tracking-wide text-sm font-semibold">
-            CipherMUN
+          <span className="text-[#ce261b] flex font-serif tracking-wide text-sm font-semibold">
+            <img
+              src="/logo.png"
+              alt="CIPHERMUN Logo"
+              className="w-5 h-5 mr-2"
+            />
+            CIPHERMUN
           </span>
           <div className="flex items-center gap-4 text-xs text-[#ce261b]">
             <a
@@ -198,8 +203,8 @@ export default function Home() {
             }}
             className="text-[#ce261b] mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-none"
           >
-            Introducing <span className="font-serif tracking-wide">Cipher</span>{" "}
-            MUN at MES <br />
+            <span className="font-serif tracking-wide">CIPHER</span> MUN at MES{" "}
+            <br />
             for the 5th Edition of Made Easy MUN.
           </motion.h1>
 
@@ -496,15 +501,20 @@ export default function Home() {
           <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-10 pb-12 border-b border-[#eae5e1]/20">
             <FadeInWhenVisible direction="right" className="md:w-[35%]">
               <div>
-                <h2 className="font-serif text-3xl sm:text-4xl font-semibold tracking-wide">
-                  CipherMUN
+                <h2 className="font-serif flex text-3xl sm:text-4xl font-semibold tracking-wide">
+                  <img
+                    src="/logo.png"
+                    alt="CIPHERMUN Logo"
+                    className="w-8 h-8 mr-2 mt-1"
+                  />
+                  CIPHERMUN
                 </h2>
                 <p className="mt-3 text-sm sm:text-base text-[#eae5e1]/70 leading-relaxed">
                   The 5th Edition of Made Easy MUN — a celebration of diplomacy,
                   dialogue, and the next generation of global leaders.
                 </p>
                 <p className="mt-4 text-xs text-[#eae5e1]/50 uppercase tracking-widest">
-                  Powered by SIJA SUMMITS.
+                  Co-Organised by SIJA SUMMITS.
                 </p>
                 <p className="mt-4 text-xs text-[#eae5e1]/50 uppercase tracking-widest">
                   Developed, Designed and Maintained by vaidik.co.
@@ -582,11 +592,11 @@ export default function Home() {
           {/* Bottom row */}
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#eae5e1]/40">
             <p>
-              © 2025 CipherMUN · Made Easy School, Gurugram. All rights
+              © 2026 CipherMUN · Made Easy School, Gurugram. All rights
               reserved.
             </p>
             <p className="flex items-center gap-1 flex-wrap justify-center sm:justify-end">
-              Powered by{" "}
+              Co-Organised by{" "}
               <a
                 href=""
                 target="_blank"
