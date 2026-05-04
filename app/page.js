@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     q: "Where can I contact the organizers for more information?",
-    a: "For any queries regarding registration, committee details, or event logistics. You may contact us swati.tyagi@madeeasyschool.in ",
+    a: "For any queries regarding registration, committee details, or event logistics. You may contact us swati.tyagi@madeeasyschool.in or at +91-8800882440.",
   },
 ];
 
@@ -205,7 +205,7 @@ export default function Home() {
           >
             <span className="font-serif tracking-wide">CIPHER</span> MUN @ MES{" "}
             <br />
-            for the 5th Edition of Made Easy MUN.
+            for the 5th Edition of MADE EASY MUN.
           </motion.h1>
 
           <motion.p
@@ -255,7 +255,7 @@ export default function Home() {
       >
         <FadeInWhenVisible>
           <h1 className="text-[#ce261b] text-4xl sm:text-5xl md:text-6xl font-semibold mb-10">
-            Committees.
+            COMMITTEES
           </h1>
         </FadeInWhenVisible>
 
@@ -511,7 +511,7 @@ export default function Home() {
                   CIPHERMUN
                 </h2>
                 <p className="mt-3 text-sm sm:text-base text-[#eae5e1]/70 leading-relaxed">
-                  The 5th Edition of Made Easy MUN — a celebration of diplomacy,
+                  The 5th Edition of MADE EASY MUN — a celebration of diplomacy,
                   dialogue, and the next generation of global leaders.
                 </p>
                 <p className="mt-4 text-xs text-[#eae5e1]/50 uppercase tracking-widest">
@@ -541,21 +541,6 @@ export default function Home() {
                       className="text-sm text-[#eae5e1]/80 hover:text-[#eae5e1] transition-opacity"
                     >
                       {link.label}
-                    </a>
-                  ))}
-                </div>
-
-                <div className="flex flex-col gap-3">
-                  <p className="text-xs uppercase tracking-widest text-[#eae5e1]/50 font-semibold mb-1">
-                    Committees
-                  </p>
-                  {committees.map((c) => (
-                    <a
-                      key={c.abbr}
-                      href={`#committee-${c.abbr.toLowerCase().replace(/\s+/g, "-")}`}
-                      className="text-sm text-[#eae5e1]/80 hover:text-[#eae5e1] transition-opacity"
-                    >
-                      {c.abbr}
                     </a>
                   ))}
                 </div>
