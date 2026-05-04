@@ -275,7 +275,7 @@ export default function Home() {
                 delay: i * 0.1,
                 ease: [0.22, 1, 0.36, 1],
               }}
-              className="group relative flex-1 rounded-2xl overflow-hidden cursor-pointer"
+              className="group relative flex-1 rounded-2xl overflow-hidden"
               style={{ minHeight: "420px" }}
             >
               <div
