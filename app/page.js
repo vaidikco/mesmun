@@ -59,7 +59,7 @@ const committees = [
 const faqs = [
   {
     q: "Where is the event being held?",
-    a: "CipherMUN — the 5th edition of MESMUN — will be held at MADE EASY SCHOOL, GURUGRAM on 29th and 30th May 2026.",
+    a: "CipherMUN — the 5th edition of MESMUN — will be held at MADE EASY SCHOOL, GURUGRAM on 22nd and 23rd May 2026.",
   },
   {
     q: "When is the event?",
