@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import CustomCursor from "./components/CustomCursor";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "CipherMUN 26'@ MES.",
+  title: "CIPHER MUN 26'@ MES.",
   description: "Welcome to CIPHER MUN.",
 };
 
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <CustomCursor></CustomCursor>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
