@@ -218,12 +218,6 @@ export default function Home() {
           </span>
           <div className="flex items-center gap-4 text-xs text-white/90">
             <a
-              href="#about"
-              className="cursor-pointer hover:opacity-70 transition-opacity"
-            >
-              About
-            </a>
-            <a
               href="#committees"
               className="cursor-pointer hover:opacity-70 transition-opacity"
             >
@@ -242,7 +236,18 @@ export default function Home() {
           className="w-full max-w-6xl flex flex-col py-[3vw] flex-1 justify-center"
           style={{ position: "relative", zIndex: 10 }}
         >
-          <div className="flex gap-3">
+          <div className="gap-3">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="w-fit px-4 h-6 py-6 rounded-full text-white/80 text-xs gap-2 flex items-center backdrop-blur-sm"
+            >
+              <img
+                className="w-12"
+                src="https://www.madeeasyschool.in/images/logo.svg"
+              ></img>
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -252,7 +257,6 @@ export default function Home() {
               Co-organised by SIJA SUMMITS
             </motion.div>
           </div>
-
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -261,7 +265,7 @@ export default function Home() {
               delay: 0.35,
               ease: [0.22, 1, 0.36, 1],
             }}
-            className="text-white mt-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-none drop-shadow-lg"
+            className="text-white mt-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-none drop-shadow-lg"
           >
             <span className="md:text-[100px]">
               <GradientText>
@@ -274,7 +278,6 @@ export default function Home() {
               organised by MADE EASY SCHOOL GURUGRAM
             </span>
           </motion.h1>
-
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -283,7 +286,6 @@ export default function Home() {
           >
             22nd and 23rd May 2026
           </motion.p>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -303,7 +305,6 @@ export default function Home() {
               Know More
             </a>
           </motion.div>
-
           <motion.img
             src="/image.png"
             initial={{ opacity: 0, scale: 0.97 }}
@@ -432,10 +433,10 @@ export default function Home() {
                 <h2 className="font-serif font-semibold text-3xl sm:text-4xl md:text-5xl text-white leading-tight">
                   MADE EASY SCHOOL
                 </h2>
-                <span className="text-[20px] font-semibold  tracking-[0.2em] text-white tracking-loose mb-4 block">
+                <span className="text-[20px] font-bold  text-white tracking-loose mb-4 block">
                   Our Vision:
                 </span>
-                <span>सा विद्या या विमुक्तये</span>
+                <span className="font-bold">सा विद्या या विमुक्तये</span>
                 <div className="w-10 h-px bg-white/30 my-6" />
                 <p className="text-white/70 text-sm sm:text-base leading-relaxed">
                   MADE EASY SCHOOL, Gurugram, is built on the philosophy that
