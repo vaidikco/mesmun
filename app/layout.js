@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "CIPHER MUN 26'@ MES.",
+  title: "CIPHER MUN 5.0 @ MES 2026",
   description: "Welcome to CIPHER MUN.",
 };
 
