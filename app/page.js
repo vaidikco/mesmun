@@ -243,10 +243,9 @@ export default function Home() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="w-fit px-4 h-6 py-6 rounded-full text-white/80 text-xs gap-2 flex items-center backdrop-blur-sm"
             >
-              <img
-                className="w-12"
-                src="https://www.madeeasyschool.in/images/logo.svg"
-              ></img>
+              <div className="flex gap-3 mb-18">
+                <img className="w-30 " src="/logo.png"></img>
+              </div>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -385,7 +384,7 @@ export default function Home() {
           <FadeInWhenVisible direction="right">
             <div className="flex flex-col justify-between h-full p-8 sm:p-10 md:p-14 border-b md:border-b-0 md:border-r border-white/15">
               <div>
-                <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40 mb-4 block">
+                <span className="text-[20px] font-semibold uppercase tracking-tight text-white/40 mb-4 block">
                   What is MUN?
                 </span>
                 <h2 className="font-serif font-semibold text-3xl sm:text-4xl md:text-5xl text-white leading-tight">
@@ -430,6 +429,10 @@ export default function Home() {
           <FadeInWhenVisible direction="left" delay={0.15}>
             <div className="flex flex-col justify-between h-full p-8 sm:p-10 md:p-14">
               <div>
+                <img
+                  className="w-34 p-4"
+                  src="https://www.madeeasyschool.in/images/logo.svg"
+                ></img>
                 <h2 className="font-serif font-semibold text-3xl sm:text-4xl md:text-5xl text-white leading-tight">
                   MADE EASY SCHOOL
                 </h2>
