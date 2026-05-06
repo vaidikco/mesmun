@@ -439,7 +439,7 @@ export default function Home() {
                 <span className="text-[20px] font-bold  text-white tracking-loose mb-4 block">
                   Our Vision:
                 </span>
-                <span className="font-bold">सा विद्या या विमुक्तये</span>
+                <span className="font-bold text-white">सा विद्या या विमुक्तये</span>
                 <div className="w-10 h-px bg-white/30 my-6" />
                 <p className="text-white/70 text-sm sm:text-base leading-relaxed">
                   MADE EASY SCHOOL, Gurugram, is built on the philosophy that
