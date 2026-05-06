@@ -208,13 +208,13 @@ export default function Home() {
           className="self-center w-full sm:w-[60%] mt-[2vw] md:w-[45%] lg:w-[40%] bg-white/15 backdrop-blur-md border border-white/25 rounded-full px-5 py-2 flex items-center justify-between mb-8"
           style={{ position: "relative", zIndex: 10 }}
         >
-          <span className="text-white flex font-serif tracking-wide text-sm font-semibold drop-shadow">
+          <span className="text-white flex font-serif tracking-widest text-sm font-semibold drop-shadow">
             <img
               src="/logo.png"
               alt="CIPHER MUN Logo"
               className="w-5 h-5 mr-2"
             />
-            CIPHER MUN
+            CIPHER MUN 5.0 @ MES
           </span>
           <div className="flex items-center gap-4 text-xs text-white/90">
             <a
@@ -439,7 +439,9 @@ export default function Home() {
                 <span className="text-[20px] font-bold  text-white tracking-loose mb-4 block">
                   Our Vision:
                 </span>
-                <span className="font-bold text-white">सा विद्या या विमुक्तये</span>
+                <span className="font-bold text-white">
+                  सा विद्या या विमुक्तये
+                </span>
                 <div className="w-10 h-px bg-white/30 my-6" />
                 <p className="text-white/70 text-sm sm:text-base leading-relaxed">
                   MADE EASY SCHOOL, Gurugram, is built on the philosophy that
